@@ -1,0 +1,50 @@
+/* ================ SERVICES ========================== */
+.services_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .services_content {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 1rem 1.5rem 1.25rem 1.5rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    transition: .3s;
+    flex: 1 1 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .services_title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-1);
+    font-weight: var(--font-medium);
+  }
+  
+  .services_subtitle {
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+  }
+  
+  .services_content:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, .15);
+  } 
+  
+  /* .services_icon {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-bottom: var(--mb-1);
+  } */
+  
+  
+  /* .services_button {
+    cursor: pointer;
+    font-size: var(--small-font-size);
+  } */
