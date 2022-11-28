@@ -1,7 +1,3 @@
-<?php  ini_set('display_errors', 1); 
-        ini_set('display_startup_errors', 1); 
-        error_reporting(E_ALL);
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -462,20 +458,20 @@
                     </div>
                 </div>
 
-                <form action="sendmail.php" method="post" class="contact_form grid" enctype="multipart/form-data">
+                <form action="https://formsubmit.co/alicanteallan7@gmail.com/" method="POST" class="contact_form grid" enctype="multipart/form-data">
                     <div class="contact_inputs grid">
                         <div class="contact_content">
                             <label for="Name" class="contact_label">Name</label>
-                            <input type="text" class="contact_input " id="name" name="name">
+                            <input type="text" class="contact_input " id="name" name="name" required>
                         </div>
                         <div class="contact_content">
                             <label for="Email" class="contact_label">Email</label>
-                            <input type="email" class="contact_input " id="email" name="email">
+                            <input type="email" class="contact_input " id="email" name="email" required>
                         </div>                     
                     </div>
                     <div class="contact_content">
                         <label for="Message" class="contact_label">Message</label>
-                        <textarea  class="contact_input "  cols="0" rows="7" id="message" name="message"></textarea>
+                        <textarea  class="contact_input "  cols="0" rows="7" id="message" name="message" required></textarea>
                     </div>
                     <div >
                         <button type="submit" style="border: none; font-family: 'Poppins', sans-serif; font-size: 1rem;" name="submit">
