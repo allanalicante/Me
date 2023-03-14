@@ -23,6 +23,7 @@
 </head>
 
 <body>
+
     <div id="particles-js"></div>
         <!-- ========================= HEADER ======================== -->
         <header class="header" id="header">
@@ -73,6 +74,7 @@
                 </div>
             </nav>
         </header>
+
 
     <!-- ========================= MAIN ========================== -->
     <main class="main" >
@@ -180,9 +182,11 @@
         </section>
 
         <!-- ========================= SKILLS ==================== -->
+
     <!-- <section class="skills section" data-aos="fade-right" id="skills">
             <h2 class="section_title">MY SKILLS</h2>
             <span class="section_subtitle">What I used so far</span>
+
 
             <div class="skills_container container grid">
                 First Skill Box -->
@@ -372,13 +376,16 @@
             <h2 class="section_title">SERVICES</h2>
             <span class="section_subtitle">What I can do for you</span>
 
+
             <div class="services_container container">
                 <!-- Service 1 -->
                 <div class="services_content">
                     <div class="services_box">
+
                         <img src="assets/img/progressive_app.svg" width="200" height="150" alt="Responsive Image">
                         <h1 class="services_title">Website Development</h1>
                         <h3 class="services_subtitle">with the intention of maximizing user satisfaction and supporting your business objectives.
+
                         </h3>
                     </div>
                 </div>
@@ -386,18 +393,22 @@
                  <!-- Service 2 -->
                  <div class="services_content">
                     <div class="services_box">
+
                         <img src="assets/img/window-based.svg" width="200" height="150" alt="Dynamic Image">
                         <h1 class="services_title">Window-based System</h1>
                         <h3 class="services_subtitle">building powerful solutions to help your business productivity boost.</h3>
+
                     </div>
                 </div>
 
                  <!-- Service 3 -->
                  <div class="services_content">
                     <div class="services_box">
+
                         <img src="assets/img/responsive_app.svg" width="180" height="150" alt="Clean Image" style="padding-top:10px;">
                         <h1 class="services_title">Website Design</h1>
                         <h3 class="services_subtitle">to deliver an exceptional design and user experience that helps you achieve your business objectives.</h3>
+
                     </div>
                 </div>
             </div>
@@ -405,7 +416,9 @@
 
         <!-- ========================= PORTFOLIO ================= -->
         <section class="portfolio section"  data-aos="fade-right" id="portfolio">
+
             <h2 class="section_title">MY PROJECTS</h2>
+
             <span class="section_subtitle">Most recent work</span>
 
             <div class="portfolio_container container swiper-container">
@@ -571,12 +584,15 @@
                     </div>
                 </div>
 
+
                 <form action="https://formsubmit.co/e382902c1587370ba9e13f866b2bb98e" method="POST"  class="contact_form grid">
                     <!-- Honeypot -->
+
                     <input type="text" name="_honey" style="display: none">
 
                     <!-- Disable captcha -->
                     <input type="hidden" name="_captcha" value="false ">
+
 
                     <input type="hidden" name="_next" value="false ">
 
@@ -589,14 +605,17 @@
                         <div class="contact_content">
                             <label for="Email" class="contact_label">Email</label>
                             <input type="email" class="contact_input " id="email" name="email" required>
+
                         </div>                     
                     </div>
                     <div class="contact_content">
                         <label for="Message" class="contact_label">Message</label>
+
                         <textarea  class="contact_input " id="" cols="0" rows="7" id="message" name="message" required></textarea>
                     </div>
                     <div >
                         <button type="submit" style="border: none; font-family: 'Poppins', sans-serif; font-size: 1rem;" >
+
                             <a class="button button-flex">
                                 Send message
                                 <i class="uil uil-message button_icon"></i>
@@ -658,35 +677,19 @@
         <script src="assets/js/main.js"></script>
         <!--========================== AOS ANIMATION JS ================================ -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
         <!--========================== PARTICLES JS ================================ -->
         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <!-- stats.js lib --> 
         <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
         <script src="/assets/js/particles.js"></script>
+
         <script>
             AOS.init({
         duration: 1200,
         })
         </script>
-        <!-- ========================= SMTPJS SEND EMAIL JS ======================== -->
-        <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail() {
-                Email.send({
-                    Host : "smtp.gmail.com",
-                    Username : "alicanteallan7@gmail.com",
-                    Password : "melaniebraderman",
-                    To : "alicanteallan7@gmail.com",
-                    From : document.getElementById("email").value,
-                    Subject: "New Contact Form Inquiry",
-                    Body : "Name: " + document.getElementById("name").value
-                    + "<br> Email: " + document.getElementById("email").value
-                    + "<br> Message: " + document.getElementById("message").value
-                }).then(
-                    message => alert("Message sent successfully")
-                ); 
-            }
-        </script> -->
+
 
 </body>
 </html>
