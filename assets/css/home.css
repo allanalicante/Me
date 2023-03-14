@@ -36,6 +36,15 @@
   .home_data {
     grid-column: 1/3;
   }
+
+  .home_span {
+    color: var(--first-color-alt);
+  }
+
+  .home_greetings {
+    font-size: var(--h3-font-size) ;
+    font-weight: var(--font-normal);
+  }
   
   .home_title {
     font-size: var(--big-font-size);

@@ -5,6 +5,12 @@
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+
+  .nav_img_logo {
+    height: 25px;
+    width: auto;
+  }
+ 
   .nav_menu {
     padding: 2rem .25rem 4rem;
   }
@@ -29,6 +35,14 @@
   }
 }
 
+@media screen and (max-width: 567px) {
+
+  .nav_img_logo {
+    height: 25px;
+    width: auto;
+  }
+}
+
 /* For medium devices - tablets */
 @media screen and (min-width: 568px) {
   .home_content{
@@ -47,6 +61,10 @@
   .contact_container,
   .footer_container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .nav_img_logo {
+    height: 25px;
+    width: auto;
   }
 }
 
@@ -82,6 +100,10 @@
   .nav_toggle {
     display: none;
   }
+  .nav_img_logo {
+    height: 50px;
+    width: auto;
+  }
   .nav_list {
     display: flex;
     column-gap: 2rem;
@@ -91,7 +113,7 @@
   }
 
   .home_container {
-    row-gap: 5rem;
+    row-gap: .5rem;
   }
   .home_content {
     padding-top: 5.5rem;
@@ -178,7 +200,7 @@
     font-size: 2rem;
   }
   .home_content {
-    padding-top: 5rem;
+    padding-top: 2rem;
   }
   .home_description {
     font-size: 1.5rem;
@@ -187,35 +209,35 @@
     margin-top: 8rem;
   }
   .about_description {
-    font-size: 1.7rem;
-  }
-  .about_info-title {
-    font-size: 2rem;
-  }
-  .about_info-name {
     font-size: 1.5rem;
   }
+  .about_info-title {
+    font-size: 1.5rem;
+  }
+  .about_info-name {
+    font-size: 1.3rem;
+  }
   .about_img {
-    width: 400px;
+    width: 500px;
     border-radius: .5rem;
   }
 
-  .skills .section_title {
+  /* .skills .section_title {
     margin-bottom: 4rem;
-  }
+  } */
 
   .skills_container {
     height: 500px;
   }
 
   .skills_title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .skills_name {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: .5rem;
   }
 
@@ -257,8 +279,13 @@
   }
   .portfolio_description {
     font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
+  .tools_used {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
   .swiper-portfolio-icon {
     font-size: 3.5rem;
   }
