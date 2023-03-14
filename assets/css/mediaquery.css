@@ -23,6 +23,9 @@
   .home_blob {
     width: 180px;
   }
+  .home_data {
+    text-align: center;
+  }
   .skills_title {
     font-size: var(--normal-font-size);
   }
@@ -40,6 +43,9 @@
   .nav_img_logo {
     height: 25px;
     width: auto;
+  }
+  .home_data {
+    text-align: center;
   }
 }
 
