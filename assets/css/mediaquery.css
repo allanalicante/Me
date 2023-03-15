@@ -1,6 +1,6 @@
 /* ============== MEDIA QUERIES ================ */
 /* For small devices - cellphone */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 568px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -10,18 +10,25 @@
     height: 25px;
     width: auto;
   }
- 
+
   .nav_menu {
-    padding: 2rem .25rem 4rem;
+    padding: 2rem 0.25rem 4rem;
   }
   .nav_list {
     column-gap: 0;
   }
   .home_content {
-    grid-template-columns: .25fr 3fr;
+    grid-template-columns: 0.25fr 3fr;
   }
-  .home_blob {
-    width: 180px;
+  .home_img {
+    max-width: 90%;
+    height: auto;
+  }
+  .home_data {
+    text-align: center;
+  }
+  .about_data {
+    padding: 0 20px 0 20px;
   }
   .skills_title {
     font-size: var(--normal-font-size);
@@ -35,21 +42,14 @@
   }
 }
 
-@media screen and (max-width: 567px) {
-
-  .nav_img_logo {
-    height: 25px;
-    width: auto;
-  }
-}
-
-/* For medium devices - tablets */
-@media screen and (min-width: 568px) {
-  .home_content{
-    grid-template-columns: max-content 1fr 1fr;   
+/* For small tablets */
+@media screen and (min-width: 569px) {
+  .home_content {
+    grid-template-columns: max-content 1fr 1fr;
   }
   .home_data {
     grid-column: initial;
+    padding-left: 1.5rem;
   }
   .home_img {
     order: 1;
@@ -66,18 +66,27 @@
     height: 25px;
     width: auto;
   }
+  .about_description {
+    text-align: initial;
+  }
 }
 
+/* For medium tablets */
 @media screen and (min-width: 768px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
+  .home_container,
+  .about,
+  .skills,
+  .services,
+  .portfolio,
+  .contact {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
   }
   body {
     margin: 0;
   }
   .section {
-    padding: 6rem 0 2rem;
+    padding: 6rem 0 4.5rem;
   }
   .section_subtitle {
     margin-bottom: 4rem;
@@ -113,14 +122,17 @@
   }
 
   .home_container {
-    row-gap: .5rem;
+    row-gap: 0.5rem;
   }
   .home_content {
-    padding-top: 5.5rem;
+    padding-top: 2.5rem;
     column-gap: 2rem;
   }
   .home_blob {
     width: 270px;
+  }
+  .home_data {
+    padding-left: 0;
   }
   .home_scroll {
     display: block;
@@ -129,7 +141,7 @@
     margin-left: 3rem;
   }
   .about_container {
-    column-gap: 5rem;
+    column-gap: 2rem;
   }
   .about_img {
     width: 350px;
@@ -174,12 +186,7 @@
 }
 
 /* For large devices - laptop/desktop computer */
-@media screen and (min-width: 1024px) {
-  .header,
-  .main,
-  .footer_container {
-    padding: 0;
-  }
+@media screen and (min-width: 1280px) {
   .home_container,
   .about,
   .skills,
@@ -187,15 +194,13 @@
   .portfolio,
   .contact {
     height: 100vh;
-    margin-left: var(--mb-5);
-    margin-right: var(--mb-5);
+    margin-left: var(--mb-4);
+    margin-right: var(--mb-4);
   }
-  .home_blob {
-    width: 480px;
-  }
-  .home_social {
-    transform: translateX(-6rem);
-  }
+
+  /* .home_social {
+    transform: translateX(-2rem);
+  } */
   .home_social-icon {
     font-size: 2rem;
   }
@@ -219,7 +224,7 @@
   }
   .about_img {
     width: 500px;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
   }
 
   /* .skills .section_title {
@@ -238,7 +243,7 @@
 
   .skills_name {
     font-size: 1rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .skills_level {
@@ -310,18 +315,18 @@
   .contact .section_subtitle {
     margin-bottom: 9rem;
   }
- 
+
   .contact_container {
     height: 400px;
   }
   .contact_form {
     width: max-content;
   }
-   .contact_inputs {
+  .contact_inputs {
     grid-template-columns: repeat(2, 1fr);
     height: 100px;
   }
-  
+
   .footer_container {
     margin: 0 4rem 0 4rem;
   }
@@ -341,7 +346,30 @@
   .footer_copy {
     font-size: 1.2rem;
   }
+}
 
+@media screen and (min-width: 1440px) {
+  .home_container,
+  .about,
+  .skills,
+  .services,
+  .portfolio,
+  .contact {
+    height: 100vh;
+    margin-left: var(--mb-10);
+    margin-right: var(--mb-10);
+  }
+}
 
-  
+@media screen and (min-width: 1800px) {
+  .home_container,
+  .about,
+  .skills,
+  .services,
+  .portfolio,
+  .contact {
+    height: 100vh;
+    margin-left: var(--mb-22);
+    margin-right: var(--mb-22);
+  }
 }

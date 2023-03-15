@@ -58,9 +58,9 @@
 }
 
 /* Font size for large devices */
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 912px) {
   :root {
-    --big-font-size: 4rem;
+    --big-font-size: 3.5rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 2.2rem;
@@ -79,7 +79,13 @@
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
     --mb-4: 4rem;
-    --mb-5: 22rem;
+    --mb-5: 5rem;
+    --mb-6: 6rem;
+    --mb-7: 7rem;
+    --mb-8: 8rem;
+    --mb-9: 9rem;
+    --mb-10: 10rem;
+    --mb-22: 22rem;
   }
 }
 
