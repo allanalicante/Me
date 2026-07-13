@@ -232,7 +232,7 @@
   } */
 
   .skills_container {
-    height: 500px;
+    height: auto;
   }
 
   .skills_title {
@@ -268,7 +268,7 @@
   }
 
   .portfolio .section_subtitle {
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
   }
   .portfolio_content {
     height: 500px;

@@ -12,7 +12,7 @@
     <!--========================== BOXICONS ================================ -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
     <!--========================== DEVICONS ================================ -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <!--========================== SWIPER CSS ============================= -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!--============================ CSS ================================== -->
@@ -28,7 +28,7 @@
         <!-- ========================= HEADER ======================== -->
         <header class="header" id="header">
             <nav class="nav container">
-                <img src="assets/img/logo-light.png" alt="logo-light" class="nav_img_logo" id="logo">        
+                <img src="assets/img/logo-light.png" alt="logo-light" class="nav_img_logo" id="logo">
                 <div class="nav_menu" id="nav-menu">
                     <ul class="nav_list grid">
                             <li class="nav_item">
@@ -42,15 +42,15 @@
                                 </a>
                             </li>
                             <li class="nav_item">
-                                <a href="#skills" class="nav_link"> 
+                                <a href="#skills" class="nav_link">
                                     <i class="uil uil-file-alt nav_icon"></i> Skills
                                 </a>
                             </li>
-                            <li class="nav_item">
+                            <!-- <li class="nav_item">
                                 <a href="#services" class="nav_link">
                                     <i class="uil uil-briefcase-alt nav_icon"></i> Services
                                 </a>
-                            </li>
+                            </li> -->
                             <li class="nav_item">
                                 <a href="#portfolio" class="nav_link">
                                     <i class="uil uil-scenery nav_icon"></i> Porfolio
@@ -79,7 +79,7 @@
     <!-- ========================= MAIN ========================== -->
     <main class="main" >
         <!-- ========================= HOME ====================== -->
-        
+
         <section class="home section" data-aos="fade-up" id="home">
             <div class="home_container container grid" >
                 <div class="home_content grid">
@@ -100,15 +100,15 @@
                     <div class="home_img">
                         <!-- <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
                                 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
                             </mask>
                             <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
                                 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
                                 <image class="home_blob-img" x="12" y="-20" href="assets/img/mesmall.png"/>
                             </g>
@@ -119,10 +119,10 @@
                     <div class="home_data">
                         <p class="home_greetings">Hello there! I am</p>
                         <h1 class="home_title">Allan <span class="home_span">Alicante</span></h1>
-                        <h3 class="home_subtitle">Web | System Developer</h3>
+                        <h3 class="home_subtitle">Full Stack Developer</h3>
                         <p class="home_description">Feel free to scroll while you're here.
-                        </p>        
-                        <a download="" href="assets/pdf/Resume - Alicante.pdf" class="button button-flex">
+                        </p>
+                        <a download="" href="assets/pdf/Resume - Allan Alicante.pdf" class="button button-flex">
                             Download Resume<i class="uil uil-download-alt button_icon"></i>
                         </a>
                     </div>
@@ -148,14 +148,19 @@
 
                 <div class="about_data">
                     <p class="about_description">
-                        I`ve been coding for some years now and currently working as a <span class="home_span">Freelance</span> Developer based
-                        in the Philippines that 
-                        focuses on <span class="home_span">website</span> and <span class="home_span">system</span> development.
+                        I'm a <span class="home_span">Full Stack Developer</span> based in the Philippines with over 3 years of experience building responsive websites and web applications.
+                        <br>
+                        I primarily work with <span class="home_span">Laravel</span> and <span class="home_span">Vue.js</span>,
+                        while also developing and customizing <span class="home_span">Shopify</span>, <span class="home_span">HubSpot</span>, and <span class="home_span">WordPress</span> websites.
+                        <!-- add new line -->
+                        <br>
+                        I enjoy turning ideas into reliable, user-friendly solutions and continuously learning new technologies to improve my craft.
+
                     </p>
 
-                    <div class="about_info">
+                    <!-- <div class="about_info">
                         <div>
-                            <span class="about_info-title">1</span>
+                            <span class="about_info-title">3+</span>
                             <span class="about_info-name">Year <br> experience</span>
                         </div>
                         <div>
@@ -170,7 +175,7 @@
 
                     <p class="about_description">
                         I am a <span class="home_span">Coffee</span> lover too.
-                    </p>
+                    </p> -->
 
                     <div class="about_buttons">
                         <a href="#contact" class="button button-flex">
@@ -246,7 +251,7 @@
                 <!-- Second Skill Box -->
                 <!-- <div class="skills_content">
                     <h3 class="skills_title">System Development</h3>
-                    
+
                     <div class="skills_box">
                         <div class="skills_group">
                             <div class="skills_data">
@@ -302,76 +307,106 @@
             <div class="skills_container container grid">
                 <!-- First Skill Box -->
                 <div class="skills_content">
-                    <h3 class="skills_title">Web & System Development</h3>
+                    <h3 class="skills_title">Web Development</h3>
                     <div class="skills_box">
-                        <div class="skills_group">
-                            <div class="skills_data">
-                                <i class="devicon devicon-html5-plain colored"></i>
-                                <h3 class="skills_name">Html</h3> 
-                            </div>                          
-                            <div class="skills_data">
-                                <i class="devicon devicon-css3-plain colored"></i>
-                                <h3 class="skills_name">Css</h3> 
-                            </div>                          
-                            <div class="skills_data">
-                                <i class="devicon devicon-javascript-plain colored"></i>
-                                <h3 class="skills_name">Javascript</h3> 
-                            </div>                          
-                            <div class="skills_data">
-                                <i class="devicon devicon-bootstrap-plain colored"></i>
-                                <h3 class="skills_name">Bootstrap</h3> 
-                            </div>                                                                          
+                        <div class="skills_data">
+                            <i class="devicon devicon-html5-plain colored"></i>
+                            <h3 class="skills_name">Html</h3>
                         </div>
-                    </div>
-                    <div class="skills_box">
-                        <div class="skills_group">
-                            <div class="skills_data">
-                                <i class="devicon devicon-php-plain colored"></i>
-                                <h3 class="skills_name">Php</h3> 
-                            </div>  
-                            <div class="skills_data">
-                                <i class="devicon devicon-csharp-plain colored"></i>
-                                <h3 class="skills_name">C#</h3> 
-                            </div>                          
-                            <div class="skills_data">
-                                <i class="devicon devicon-mysql-plain colored"></i>
-                                <h3 class="skills_name">MySQL</h3> 
-                            </div>                                                                         
-                            <div class="skills_data">
-                                <i class="devicon devicon-wordpress-plain colored"></i>
-                                <h3 class="skills_name">WordPress</h3> 
-                            </div>                                                                         
+                        <div class="skills_data">
+                            <i class="devicon devicon-css3-plain colored"></i>
+                            <h3 class="skills_name">Css</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-javascript-plain colored"></i>
+                            <h3 class="skills_name">Javascript</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-bootstrap-plain colored"></i>
+                            <h3 class="skills_name">Bootstrap</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-tailwindcss-original colored"></i>
+                            <h3 class="skills_name">Tailwind</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-php-plain colored"></i>
+                            <h3 class="skills_name">Php</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-laravel-plain colored"></i>
+                            <h3 class="skills_name">Laravel</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-vuejs-plain colored"></i>
+                            <h3 class="skills_name">Vue</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-nuxtjs-plain colored"></i>
+                            <h3 class="skills_name">Nuxt</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-mysql-plain colored"></i>
+                            <h3 class="skills_name">MySQL</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-postgresql-plain colored"></i>
+                            <h3 class="skills_name">PostgreSQL</h3>
+                        </div>
+                        <div class="skills_data">
+                            <i class="devicon devicon-wordpress-plain colored"></i>
+                            <h3 class="skills_name">WordPress</h3>
+                        </div>
+                        <div class="skills_data">
+                            <?xml version="1.0" encoding="utf-8"?><svg style="height:48px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108.44 122.88" style="enable-background:new 0 0 108.44 122.88" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#95BF47;} .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#5E8E3E;} .st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}</style><g><path class="st0" d="M94.98,23.66c-0.09-0.62-0.63-0.96-1.08-1c-0.45-0.04-9.19-0.17-9.19-0.17s-7.32-7.1-8.04-7.83 c-0.72-0.72-2.13-0.5-2.68-0.34c-0.01,0-1.37,0.43-3.68,1.14c-0.38-1.25-0.95-2.78-1.76-4.32c-2.6-4.97-6.42-7.6-11.03-7.61 c-0.01,0-0.01,0-0.02,0c-0.32,0-0.64,0.03-0.96,0.06c-0.14-0.16-0.27-0.32-0.42-0.48c-2.01-2.15-4.58-3.19-7.67-3.1 c-5.95,0.17-11.88,4.47-16.69,12.11c-3.38,5.37-5.96,12.12-6.69,17.35c-6.83,2.12-11.61,3.6-11.72,3.63 c-3.45,1.08-3.56,1.19-4.01,4.44C9.03,39.99,0,109.8,0,109.8l75.65,13.08l32.79-8.15C108.44,114.73,95.06,24.28,94.98,23.66 L94.98,23.66z M66.52,16.63c-1.74,0.54-3.72,1.15-5.87,1.82c-0.04-3.01-0.4-7.21-1.81-10.83C63.36,8.47,65.58,13.58,66.52,16.63 L66.52,16.63z M56.69,19.68c-3.96,1.23-8.29,2.57-12.63,3.91c1.22-4.67,3.54-9.33,6.38-12.38c1.06-1.14,2.54-2.4,4.29-3.12 C56.38,11.52,56.73,16.39,56.69,19.68L56.69,19.68z M48.58,3.97c1.4-0.03,2.57,0.28,3.58,0.94C50.55,5.74,49,6.94,47.54,8.5 c-3.78,4.06-6.68,10.35-7.83,16.43c-3.6,1.11-7.13,2.21-10.37,3.21C31.38,18.58,39.4,4.23,48.58,3.97L48.58,3.97z"/><path class="st1" d="M93.9,22.66c-0.45-0.04-9.19-0.17-9.19-0.17s-7.32-7.1-8.04-7.83c-0.27-0.27-0.63-0.41-1.02-0.47l0,108.68 l32.78-8.15c0,0-13.38-90.44-13.46-91.06C94.9,23.04,94.35,22.7,93.9,22.66L93.9,22.66z"/><path class="st2" d="M57.48,39.52l-3.81,14.25c0,0-4.25-1.93-9.28-1.62c-7.38,0.47-7.46,5.12-7.39,6.29 c0.4,6.37,17.16,7.76,18.11,22.69c0.74,11.74-6.23,19.77-16.27,20.41c-12.05,0.76-18.69-6.35-18.69-6.35l2.55-10.86 c0,0,6.68,5.04,12.02,4.7c3.49-0.22,4.74-3.06,4.61-5.07c-0.52-8.31-14.18-7.82-15.04-21.48c-0.73-11.49,6.82-23.14,23.48-24.19 C54.2,37.88,57.48,39.52,57.48,39.52L57.48,39.52z"/></g></svg>
+                            <h3 class="skills_name">Shopify</h3>
+                        </div>
+                        <div class="skills_data">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="height:48px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 489 511.8"><path fill="#FF7A59" fill-rule="nonzero" d="M375.25 168.45V107.5c16.43-7.68 26.97-24.15 27.08-42.29V63.8c0-25.95-21.05-46.99-47-46.99h-1.37c-25.95 0-46.99 21.04-46.99 46.99v1.41a46.985 46.985 0 0027.29 42.3v60.94c-23.13 3.53-44.98 13.18-63.19 27.84L103.88 66.16c1.19-4.29 1.83-8.73 1.89-13.17v-.11C105.77 23.68 82.09 0 52.88 0 23.68 0 0 23.68 0 52.88c0 29.18 23.64 52.85 52.81 52.89 9.17-.08 18.16-2.59 26.06-7.23l164.62 128.07a133.501 133.501 0 00-22.16 73.61c0 27.39 8.46 54.17 24.18 76.58l-50.06 50.06a43.926 43.926 0 00-12.43-1.81c-23.96 0-43.38 19.42-43.38 43.37 0 23.96 19.42 43.38 43.38 43.38 23.95 0 43.37-19.42 43.37-43.38v-.13a41.81 41.81 0 00-2.02-12.5l49.52-49.56a133.687 133.687 0 0081.54 27.78c73.76 0 133.57-59.81 133.57-133.57 0-66.05-48.3-122.2-113.61-132.06l-.14.07zm-20.39 200.4c-36.79-1.52-65.85-31.79-65.85-68.62 0-35.43 26.97-65.06 62.23-68.38h3.62c35.8 2.73 63.46 32.58 63.46 68.48 0 35.91-27.66 65.76-63.45 68.48l-.01.04zm0 0z"/></svg>
+                            <h3 class="skills_name">Hubspot</h3>
                         </div>
                     </div>
                     <h3 class="skills_title">Tools and Productivity Boosts</h3>
                     <div class="skills_box">
                         <div class="skills_group">
                             <div class="skills_data">
+                                <svg fill="none" xmlns="http://www.w3.org/2000/svg" style="height:48px" viewBox="0 0 512 512"><g clip-path="url(#prefix__clip0_5_17)"><rect width="512" height="512" rx="122" fill="#000"/><g clip-path="url(#prefix__clip1_5_17)"><mask id="prefix__a" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="85" y="89" width="343" height="334"><path d="M85 89h343v334H85V89z" fill="#fff"/></mask><g mask="url(#prefix__a)"><path d="M255.428 423l148.991-83.5L255.428 256l-148.99 83.5 148.99 83.5z" fill="url(#prefix__paint0_linear_5_17)"/><path d="M404.419 339.5v-167L255.428 89v167l148.991 83.5z" fill="url(#prefix__paint1_linear_5_17)"/><path d="M255.428 89l-148.99 83.5v167l148.99-83.5V89z" fill="url(#prefix__paint2_linear_5_17)"/><path d="M404.419 172.5L255.428 423V256l148.991-83.5z" fill="#E4E4E4"/><path d="M404.419 172.5L255.428 256l-148.99-83.5h297.981z" fill="#fff"/></g></g></g><defs><linearGradient id="prefix__paint0_linear_5_17" x1="255.428" y1="256" x2="255.428" y2="423" gradientUnits="userSpaceOnUse"><stop offset=".16" stop-color="#fff" stop-opacity=".39"/><stop offset=".658" stop-color="#fff" stop-opacity=".8"/></linearGradient><linearGradient id="prefix__paint1_linear_5_17" x1="404.419" y1="173.015" x2="257.482" y2="261.497" gradientUnits="userSpaceOnUse"><stop offset=".182" stop-color="#fff" stop-opacity=".31"/><stop offset=".715" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="prefix__paint2_linear_5_17" x1="255.428" y1="89" x2="112.292" y2="342.802" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity=".6"/><stop offset=".667" stop-color="#fff" stop-opacity=".22"/></linearGradient><clipPath id="prefix__clip0_5_17"><path fill="#fff" d="M0 0h512v512H0z"/></clipPath><clipPath id="prefix__clip1_5_17"><path fill="#fff" transform="translate(85 89)" d="M0 0h343v334H0z"/></clipPath></defs></svg>
+                                <h3 class="skills_name">Cursor</h3>
+                            </div>
+                            <div class="skills_data">
                                 <i class="devicon devicon-vscode-plain colored"></i>
-                                <h3 class="skills_name">Visual Studio</h3> 
-                            </div>                          
+                                <h3 class="skills_name">Visual Studio</h3>
+                            </div>
                             <div class="skills_data">
                                 <!-- <i class="devicon devicon-microsoftsqlserver-plain colored"></i> -->
                                 <i class='devicon bx bxs-data'></i>
-                                <h3 class="skills_name">Xampp</h3> 
-                            </div>                          
+                                <h3 class="skills_name">Xampp</h3>
+                            </div>
                             <div class="skills_data">
                                 <i class="devicon devicon-github-original colored"></i>
-                                <h3 class="skills_name">Github</h3> 
-                            </div>                          
+                                <h3 class="skills_name">Github</h3>
+                            </div>
                             <div class="skills_data">
                                 <i class="devicon devicon-figma-plain colored"></i>
-                                <h3 class="skills_name">Figma</h3> 
-                            </div>                                                  
+                                <h3 class="skills_name">Figma</h3>
+                            </div>
                         </div>
                     </div>
-                    
+
                     <div class="skills_box">
-                        <div class="skills_group">                                      
+                        <div class="skills_group">
                             <div class="skills_data">
-                                <i class="devicon bx bxl-microsoft-teams"></i>
-                                <h3 class="skills_name">MS Office</h3> 
-                            </div>                          
+                                <i class="devicon devicon-docker-plain colored"></i>
+                                <h3 class="skills_name">Docker</h3>
+                            </div>
+                            <div class="skills_data">
+                                <i class="devicon devicon-bitbucket-plain colored"></i>
+                                <h3 class="skills_name">Bitbucket</h3>
+                            </div>
+                            <div class="skills_data">
+                                <svg xmlns="http://www.w3.org/2000/svg" style="height:48px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><path fill="#D77655" d="M115.612 0h280.775C459.974 0 512 52.026 512 115.612v278.415c0 63.587-52.026 115.612-115.613 115.612H115.612C52.026 509.639 0 457.614 0 394.027V115.612C0 52.026 52.026 0 115.612 0z"/><path fill="#FCF2EE" fill-rule="nonzero" d="M142.27 316.619l73.655-41.326 1.238-3.589-1.238-1.996-3.589-.001-12.31-.759-42.084-1.138-36.498-1.516-35.361-1.896-8.897-1.895-8.34-10.995.859-5.484 7.482-5.03 10.717.935 23.683 1.617 35.537 2.452 25.782 1.517 38.193 3.968h6.064l.86-2.451-2.073-1.517-1.618-1.517-36.776-24.922-39.81-26.338-20.852-15.166-11.273-7.683-5.687-7.204-2.451-15.721 10.237-11.273 13.75.935 3.513.936 13.928 10.716 29.749 23.027 38.848 28.612 5.687 4.727 2.275-1.617.278-1.138-2.553-4.271-21.13-38.193-22.546-38.848-10.035-16.101-2.654-9.655c-.935-3.968-1.617-7.304-1.617-11.374l11.652-15.823 6.445-2.073 15.545 2.073 6.547 5.687 9.655 22.092 15.646 34.78 24.265 47.291 7.103 14.028 3.791 12.992 1.416 3.968 2.449-.001v-2.275l1.997-26.641 3.69-32.707 3.589-42.084 1.239-11.854 5.863-14.206 11.652-7.683 9.099 4.348 7.482 10.716-1.036 6.926-4.449 28.915-8.72 45.294-5.687 30.331h3.313l3.792-3.791 15.342-20.372 25.782-32.227 11.374-12.789 13.27-14.129 8.517-6.724 16.1-.001 11.854 17.617-5.307 18.199-16.581 21.029-13.75 17.819-19.716 26.54-12.309 21.231 1.138 1.694 2.932-.278 44.536-9.479 24.062-4.347 28.714-4.928 12.992 6.066 1.416 6.167-5.106 12.613-30.71 7.583-36.018 7.204-53.636 12.689-.657.48.758.935 24.164 2.275 10.337.556h25.301l47.114 3.514 12.309 8.139 7.381 9.959-1.238 7.583-18.957 9.655-25.579-6.066-59.702-14.205-20.474-5.106-2.83-.001v1.694l17.061 16.682 31.266 28.233 39.152 36.397 1.997 8.999-5.03 7.102-5.307-.758-34.401-25.883-13.27-11.651-30.053-25.302-1.996-.001v2.654l6.926 10.136 36.574 54.975 1.895 16.859-2.653 5.485-9.479 3.311-10.414-1.895-21.408-30.054-22.092-33.844-17.819-30.331-2.173 1.238-10.515 113.261-4.929 5.788-11.374 4.348-9.478-7.204-5.03-11.652 5.03-23.027 6.066-30.052 4.928-23.886 4.449-29.674 2.654-9.858-.177-.657-2.173.278-22.37 30.71-34.021 45.977-26.919 28.815-6.445 2.553-11.173-5.789 1.037-10.337 6.243-9.2 37.257-47.392 22.47-29.371 14.508-16.961-.101-2.451h-.859l-98.954 64.251-17.618 2.275-7.583-7.103.936-11.652 3.589-3.791 29.749-20.474-.101.102.024.101z"/></svg>
+                                <h3 class="skills_name">Claude</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -381,13 +416,12 @@
         </section>
 
         <!-- ========================= SERVICES ================== -->
-        <section class="services section"  data-aos="fade-right" id="services">
+        <!-- <section class="services section"  data-aos="fade-right" id="services">
             <h2 class="section_title">SERVICES</h2>
             <span class="section_subtitle">What I can do for you</span>
 
 
             <div class="services_container container">
-                <!-- Service 1 -->
                 <div class="services_content">
                     <div class="services_box">
 
@@ -397,7 +431,6 @@
                     </div>
                 </div>
 
-                 <!-- Service 2 -->
                  <div class="services_content">
                     <div class="services_box">
 
@@ -408,7 +441,6 @@
                     </div>
                 </div>
 
-                 <!-- Service 3 -->
                  <div class="services_content">
                     <div class="services_box">
 
@@ -419,7 +451,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- ========================= PORTFOLIO ================= -->
         <section class="portfolio section"  data-aos="fade-right" id="portfolio">
@@ -430,14 +462,14 @@
 
             <div class="portfolio_container container swiper-container">
                 <div class="swiper-wrapper">
-                    <!-- ================ PORTFOLIO 1 ============ -->
+                    <!--
                     <div class="portfolio_content grid swiper-slide">
                         <img src="assets/img/Project1Auth.png" alt="Project 1" class="portfolio_img">
 
                         <div class="portfolio_data">
                             <h3 class="portfolio_title">SPES Online Registration and Management System</h3>
                             <p class="portfolio_description">A primary school enrollment system.
-                                I worked on both front-end and back-end features of this website. </p>              
+                                I worked on both front-end and back-end features of this website. </p>
                                 <div class="tools_used">
                                     <i class="devicon devicon-html5-plain colored"></i>
                                     <i class="devicon devicon-css3-plain colored"></i>
@@ -445,15 +477,10 @@
                                     <i class="devicon devicon-bootstrap-plain colored"></i>
                                     <i class="devicon devicon-php-plain colored"></i>
                                     <i class="devicon devicon-mysql-plain colored"></i>
-                                </div>             
-                            <!-- <a href="https://enroll.sorsogonpilot.edu.ph/login.php" target="_blank" class="button button-flex button-small portfolio_button">
-                                Visit website
-                                <i class="uil uil-arrow-right button_icon"></i>
-                            </a>                          -->
+                                </div>
                         </div>
                     </div>
 
-                    <!-- ================ PORTFOLIO 2 ============ -->
                     <div class="portfolio_content grid swiper-slide">
                         <img src="assets/img/Project6Senior.png" alt="Project 2 " class="portfolio_img">
 
@@ -464,15 +491,10 @@
                                 <i class="devicon devicon-csharp-plain colored"></i>
                                 <i class="devicon devicon-mysql-plain colored"></i>
                                 <i class="devicon devicon-vscode-plain colored"></i>
-                            </div>    
-                            <!-- <a href="#" class="button button-flex button-small portfolio_button">
-                                Visit website
-                                <i class="uil uil-arrow-right button_icon"></i>
-                            </a>                          -->
+                            </div>
                         </div>
                     </div>
 
-                    <!-- ================ PORTFOLIO 3 ============ -->
                     <div class="portfolio_content grid swiper-slide">
                         <img src="assets/img/Project5Voting.png" alt="Project 3 " class="portfolio_img">
 
@@ -483,15 +505,10 @@
                                 <i class="devicon devicon-csharp-plain colored"></i>
                                 <i class="devicon devicon-mysql-plain colored"></i>
                                 <i class="devicon devicon-vscode-plain colored"></i>
-                            </div> 
-                            <!-- <a href="#" class="button button-flex button-small portfolio_button">
-                                Visit website
-                                <i class="uil uil-arrow-right button_icon"></i>
-                            </a>                          -->
+                            </div>
                         </div>
                     </div>
 
-                    <!-- ================ PORTFOLIO 4 ============ -->
                     <div class="portfolio_content grid swiper-slide">
                         <img src="assets/img/Project2Admin.png" alt="Project 4" class="portfolio_img">
 
@@ -502,47 +519,94 @@
                                 <i class="devicon devicon-csharp-plain colored"></i>
                                 <i class="devicon devicon-mysql-plain colored"></i>
                                 <i class="devicon devicon-vscode-plain colored"></i>
-                            </div> 
-                            <!-- <a href="#" class="button button-flex button-small portfolio_button">
-                                Visit website
-                                <i class="uil uil-arrow-right button_icon"></i>
-                            </a>                          -->
+                            </div>
                         </div>
                     </div>
 
-                        <!-- ================ PORTFOLIO 4 ============ -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="assets/img/Project3Web.png" alt="Project 4" class="portfolio_img">
-    
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">PORTFOLIO WEBSITE</h3>
-                                <p class="portfolio_description">A responsive portfolio website using Daily Tuition template.</p>
-                                <div class="tools_used">
-                                    <i class="devicon devicon-html5-plain colored"></i>
-                                    <i class="devicon devicon-css3-plain colored"></i>
-                                    <i class="devicon devicon-javascript-plain colored"></i>
-                                    <i class="devicon devicon-bootstrap-plain colored"></i>
-                                </div>
-                                <!-- <a href="https://allanalicante.github.io/Portfolio-Website/" class="button button-flex button-small portfolio_button">
-                                    Visit website
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>                          -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/Project3Web.png" alt="Project 4" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">PORTFOLIO WEBSITE</h3>
+                            <p class="portfolio_description">A responsive portfolio website using Daily Tuition template.</p>
+                            <div class="tools_used">
+                                <i class="devicon devicon-html5-plain colored"></i>
+                                <i class="devicon devicon-css3-plain colored"></i>
+                                <i class="devicon devicon-javascript-plain colored"></i>
+                                <i class="devicon devicon-bootstrap-plain colored"></i>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- ================ PORTFOLIO 4 ============ -->
-                        <!-- <div class="portfolio_content grid swiper-slide">
-                            <img src="assets/img/Project4Shiba.png" alt="Project 4 " class="portfolio_img">
-    
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">SHIBA MILKTEA</h3>
-                                <p class="portfolio_description">A simple landing page I made for my friend's startup business.</p>
-                                <a href="#" class="button button-flex button-small portfolio_button">
-                                    Visit website
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>                         
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/Project4Shiba.png" alt="Project 4 " class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">SHIBA MILKTEA</h3>
+                            <p class="portfolio_description">A simple landing page I made for my friend's startup business.</p>
+                            <a href="#" class="button button-flex button-small portfolio_button">
+                                Visit website
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    -->
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/motorcycles-suzuki-ph-wordpress.png" alt="Motorcycles Suzuki Philippines" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Motorcycles Suzuki Philippines</h3>
+                            <p class="portfolio_description">A custom WordPress and PHP website for a Suzuki motorcycle-focused business, built to showcase products and services.</p>
+                            <div class="tools_used">
+                                <i class="devicon devicon-wordpress-plain colored"></i>
+                                <i class="devicon devicon-php-plain colored"></i>
+                                <i class="devicon devicon-html5-plain colored"></i>
                             </div>
-                        </div> -->
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/Yulia-Fine-Arts.png" alt="Yulia Fine Arts" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Yulia Fine Arts</h3>
+                            <p class="portfolio_description">A Shopify storefront for an artist showcasing and selling fine art pieces online.</p>
+                            <div class="tools_used">
+                                <i class="devicon devicon-shopify-original colored"></i>
+                                <i class="devicon devicon-html5-plain colored"></i>
+                                <i class="devicon devicon-css3-plain colored"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/Infobahn-Communication.png" alt="Infobahn Communication" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Infobahn Communication</h3>
+                            <p class="portfolio_description">A Shopify-based website for a communication-focused company with a strong product presentation.</p>
+                            <div class="tools_used">
+                                <i class="devicon devicon-shopify-original colored"></i>
+                                <i class="devicon devicon-html5-plain colored"></i>
+                                <i class="devicon devicon-css3-plain colored"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/redv-foods.png" alt="Redvfoods" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Redvfoods</h3>
+                            <p class="portfolio_description">A Shopify store for food products, designed with a clean layout to support online sales.</p>
+                            <div class="tools_used">
+                                <i class="devicon devicon-shopify-original colored"></i>
+                                <i class="devicon devicon-html5-plain colored"></i>
+                                <i class="devicon devicon-css3-plain colored"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Add Arrows for Swiper -->
@@ -570,7 +634,7 @@
 
                         <div>
                             <h3 class="contact_title">Call Me</h3>
-                            <span class="contact_subtitle">09916692138</span>
+                            <span class="contact_subtitle">09273464437  </span>
                         </div>
                     </div>
                     <div class="contact_information">
@@ -615,7 +679,7 @@
                             <label for="Email" class="contact_label">Email</label>
                             <input type="email" class="contact_input " id="email" name="email" required>
 
-                        </div>                     
+                        </div>
                     </div>
                     <div class="contact_content">
                         <label for="Message" class="contact_label">Message</label>
@@ -623,7 +687,7 @@
                         <textarea  class="contact_input" cols="0" rows="7" id="message" name="message" required></textarea>
                     </div>
                     <div >
-                        <button type="submit" style="border: none; font-family: 'Poppins', sans-serif; font-size: 1rem;" >
+                        <button type="submit" style="border: none; border-radius: 0.5rem; font-family: 'Poppins', sans-serif; font-size: 1rem;" >
 
                             <a class="button button-flex">
                                 Send message
@@ -642,23 +706,11 @@
         <!-- ========================= FOOTER ==================== -->
         <div class="footer">
             <div class="footer_bg">
-                <div class="footer_container container grid">
-                    <div>
+                <div class="footer_container">
+                    <div class="footer_brand">
                         <h1 class="footer_title">Allan Alicante</h1>
-                        <span class="footer_subtitle">Web | System Developer</span>
+                        <span class="footer_subtitle">Full Stack Developer</span>
                     </div>
-
-                    <ul class="footer_links">
-                        <li>
-                            <a href="#services" class="footer_link">Services</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio" class="footer_link">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="footer_link">Contact</a>
-                        </li>
-                    </ul>
 
                     <div class="footer_socials">
                         <a href="https://www.facebook.com/allangeraldalicante" target="_blank" class="footer_social">
@@ -667,13 +719,13 @@
                         <a href="https://www.instagram.com/_allanalicante" target="_blank" class="footer_social">
                             <i class="uil uil-instagram footer_social-icon"></i>
                         </a>
-                        <a href="https://twitter.com/_allanalicante" target="_blank" class="footer_social">
-                            <i class="uil uil-twitter-alt footer_social-icon"></i>
+                        <a href="https://www.linkedin.com/in/allan-gerald-alicante-300316134/" target="_blank" class="footer_social">
+                            <i class="uil uil-linkedin footer_social-icon"></i>
                         </a>
                     </div>
                 </div>
 
-                <p class="footer_copy">&#169; Allan Alicante. All right reserved. 2022</p>
+                <p class="footer_copy">&#169; Allan Alicante. All right reserved. 2026</p>
             </div>
         </div>
 
@@ -691,8 +743,8 @@
 
         <!--========================== PARTICLES JS ================================ -->
         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <!-- stats.js lib --> 
-        <!--<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>--> 
+        <!-- stats.js lib -->
+        <!--<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>-->
         <script src="assets/js/particles.js"></script>
 
         <script>

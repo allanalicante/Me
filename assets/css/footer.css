@@ -4,7 +4,18 @@
   }
 
   .footer_container {
-    row-gap: 3.5rem;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer_brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .footer_bg {
@@ -19,6 +30,15 @@
   
   .footer_subtitle {
     font-size: var(--small-font-size);
+    display: block;
+  }
+
+  .footer_socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.25rem;
   }
   
   .footer_links {
@@ -33,7 +53,7 @@
   
   .footer_social {
     font-size: 1.25rem;
-    margin-right: var(--mb-1-5);
+    margin-right: 0;
   }
   
   .footer_social:hover {
